@@ -33,7 +33,7 @@ def convert(filename, varname, output_file=None):
     if output_file:
         with open(output_file, 'w', encoding='utf-8', newline='\n') as f:
             f.write(output_text)
-        print(f"Ficheiro guardado em: {output_file}")
+        print(f"File saved at: {output_file}")
     else:
         print(output_text)
 
