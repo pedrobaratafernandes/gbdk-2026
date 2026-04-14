@@ -9,5 +9,5 @@ Included wav audio files are in the public domain
   - `utils/cvtsample.py sndrec/risset_drum_8bit_pcm_unsigned.wav sample2 C > src/sample_data_2.h`
 
 ### Windows
-  - `python .\utils\cvtsample_windows.py ..\sndrec\cowbell_8bit_pcm_unsigned.wav sample1 ..\src\sample_data_1.h`
-  - `python .\utils\cvtsample_windows.py ..\sndrec\risset_drum_8bit_pcm_unsigned.wav sample2 ..\src\sample_data_2.h`
+  - `python .\utils\cvtsample_windows.py .\sndrec\cowbell_8bit_pcm_unsigned.wav sample1 .\src\sample_data_1.h`
+  - `python .\utils\cvtsample_windows.py .\sndrec\risset_drum_8bit_pcm_unsigned.wav sample2 .\src\sample_data_2.h`
